@@ -1,0 +1,17 @@
+﻿@model List<WorksModel>
+@{
+    ViewData["Title"] = "MyWorks";
+}
+
+<h3>Мои работы</h3>
+<table border="1">
+    @foreach(var work in Model)
+        {
+            <tr>
+                <td>@work.Work</td>
+                <td>@work.ShortDescription</td>
+                <td><a href=@work.Url>@work.Url</a></td>
+            </tr>
+        }
+</table>
+
