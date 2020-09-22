@@ -45,7 +45,7 @@ namespace ASP.NET.Core.MVC.Controllers
             {
                 Work = "Accounting for Codes",
                 ShortDescription = "Программа с пользовательским интерфесом для учета кодов для e-book",
-                Url = "https://github.com/Bezumk1n/Rezume"
+                Url = "https://github.com/Bezumk1n/Accounting-for-codes"
             });
             work.Add(new WorksModel
             {
