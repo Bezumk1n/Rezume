@@ -1,11 +1,11 @@
 ﻿@model List<WorksModel>
 @{
-    ViewData["Title"] = "MyWorks";
+    ViewData["Title"] = "My Works";
 }
 
 <h3>Мои работы</h3>
 <table border="1">
-    @foreach(var work in Model)
+    @foreach(WorksModel work in Model)
         {
             <tr>
                 <td>@work.Work</td>
