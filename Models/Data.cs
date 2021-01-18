@@ -1,8 +1,4 @@
-﻿using Microsoft.Extensions.ObjectPool;
-using System.Collections.Generic;
-using System.Security.Policy;
-
-namespace ASP.NET.Core.MVC.Models
+﻿namespace ASP.NET.Core.MVC.Models
 {
     public class Data
     {
